@@ -1,0 +1,172 @@
+* {
+    overflow: auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-color: #8BA1BB;
+    font-family: Arial;
+    margin: 0;
+}
+
+a {
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+}
+
+div.contenu {
+    background-color: rgb(238, 238, 238);
+    margin: 10px 8px 20px 8px;
+    padding: 0px 0px 30px 0px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+p.categorie {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 4px 4px;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+div.categorie {
+    text-align: center;
+    background-color: rgba(62, 62, 62, 0.207);
+    margin: 10px 8px 0px 8px;
+    overflow: visible;
+}
+
+
+img.profil {
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    margin: 6px 8px 8px 8px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+p.author {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 66px;
+    margin-left: 0px;
+    width: 150px;
+}
+
+p.date {
+    float: right;
+    display: block;
+    margin-top: 8px;
+    margin-right: 8px;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+p.description {
+    text-align: center;
+    max-width: 75%;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.centre {
+    text-align: center;
+    width: 100%;
+}
+
+div.separateur {
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.info {
+    position: relative;
+}
+
+img.info {
+    display: block;
+    max-height: 200px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+p.text {
+    margin: 8px;
+    margin-top: 20px;
+}
+
+img.float_right {
+    float: right;
+    margin: 8px 0px 8px 20px;
+}
+
+img.float_left {
+    float: left;
+    margin: 8px 20px 8px 0px;
+}
+
+/* Styles pour ordinateurs */
+@media only screen and (min-width: 768px) {
+    p.categorie {
+        font-size: 16px;
+    }
+    
+    div.categorie {
+        min-width: 350px;
+        max-width: 710px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20px;
+    }
+
+    div.contenu {
+        min-width: 350px;
+        max-width: 710px;
+        margin: 10px 10% 80px 10%;
+        padding: 0px 0px 30px 0px;
+    }
+    
+    img.profil {
+        width: 100px;
+        height: 100px;
+    }
+
+    p.author {
+        margin-bottom: 86px;
+    }
+
+    p.date {
+        margin-bottom: 86px;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    div.categorie {
+        width: 710px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    div.contenu {
+        margin-left: auto;
+        margin-right: auto;
+        width:710px;
+    }
+  }

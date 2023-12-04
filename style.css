@@ -5,6 +5,7 @@
 
 body {
     background-image: url("background.jpg");
+    object-fit: cover;
     background-color: #8BA1BB;
     font-family: Arial;
     margin: 0;
